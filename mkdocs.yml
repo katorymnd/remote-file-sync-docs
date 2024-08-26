@@ -1,0 +1,44 @@
+site_name: Remote File Sync Documentation
+site_description: Comprehensive documentation for the Remote File Sync VS Code extension.
+site_author: Katorymnd
+copyright: "Copyright 2024, Katorymnd"
+theme:
+  name: material # You can use other themes if preferred
+  palette:
+    primary: "indigo"
+    accent: "indigo"
+  font:
+    text: "Roboto"
+    code: "Roboto Mono"
+  language: "en"
+
+nav:
+  - Home: README.md
+  - Installation: installation.md
+  - Usage: usage.md
+  - Configuration: configuration.md
+  - Troubleshooting: troubleshooting.md
+
+markdown_extensions:
+  - toc:
+      permalink: True
+  - tables
+  - admonition
+
+plugins:
+  - search
+
+extra_css:
+  - "css/custom.css" # Add custom CSS files here if needed
+
+extra_javascript:
+  - "js/custom.js" # Add custom JavaScript files here if needed
+
+# Uncomment this if you want to use Google Analytics
+# google_analytics:
+#   - 'UA-XXXXXXXXX-X'
+#   - 'auto'
+
+# Uncomment this to add a favicon
+# extra:
+#   favicon: 'images/favicon.ico'
