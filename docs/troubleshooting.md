@@ -143,5 +143,6 @@ If all else fails, consider reinstalling the Remote File Sync extension:
 If the above solutions do not resolve your issue, consider the following options:
 
 - **Community Support:** Visit forums or community platforms related to Visual Studio Code.
-- **GitHub Issues:** If you believe you've encountered a bug, report it on the extension's GitHub repository.
+- **GitHub Issues:** If you believe you've encountered a bug, report it on the extension's GitHub repository by creating an issue [here](https://github.com/katorymnd/remote-file-sync-docs/issues).
+
 - **Professional Support:** [Contact](https://katorymnd.com/contact-us) the extension developer or a professional for in-depth assistance.

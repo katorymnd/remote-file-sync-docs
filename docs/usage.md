@@ -27,7 +27,7 @@ To start syncing files, you first need to set up a new connection to your remote
 
 Once the extension is installed, you need to configure it to connect to your remote servers:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fJLxWZzPWqI" frameborder="0" allowfullscreen></iframe>
+[![Remote File Sync](https://katorymnd.com/tqc_images/How-to-Sync-Filez.png)](https://www.youtube.com/watch?v=fJLxWZzPWqI)
 
 ## Step 4: Sync Files
 

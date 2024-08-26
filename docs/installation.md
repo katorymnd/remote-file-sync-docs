@@ -2,7 +2,7 @@
 
 ## Introduction
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CgyB8TRgUtY" frameborder="0" allowfullscreen></iframe>
+[![Remote File Sync](https://katorymnd.com/tqc_images/Master-Remote-File-Sync.png)](https://www.youtube.com/watch?v=CgyB8TRgUtY)
 
 Thank you for choosing Remote File Sync for Visual Studio Code! This extension allows you to synchronize files between your local environment and remote servers, including FTP, SFTP, SSH, WebDAV, and Google Drive. Follow this guide to install and configure the extension, and start syncing your files efficiently.
 
@@ -48,7 +48,7 @@ To install the Remote File Sync extension:
 
 Once the extension is installed, you need to configure it to connect to your remote servers:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fJLxWZzPWqI" frameborder="0" allowfullscreen></iframe>
+[![Remote File Sync](https://katorymnd.com/tqc_images/How-to-Sync-Filez.png)](https://www.youtube.com/watch?v=fJLxWZzPWqI)
 
 1. **Click Remote File Sync**:
    Click on the icon
@@ -63,7 +63,7 @@ Once the extension is installed, you need to configure it to connect to your rem
 6. **Automatic Save**:
    Once the connection is successfully established, the extension will automatically save your connection details for future use, ensuring quick access and synchronization across sessions without the need to manually save each time.
 
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/JHrlwkcAUVs" frameborder="0" allowfullscreen></iframe>
+[![Remote File Sync](https://katorymnd.com/tqc_images/How-to-Sync-Files.png)](https://www.youtube.com/watch?v=JHrlwkcAUVs)
 
 ---
 
