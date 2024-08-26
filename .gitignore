@@ -1,2 +1,4 @@
 site/
 mkdocs.yml
+docs/css/
+docs/js/
