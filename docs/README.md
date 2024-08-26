@@ -89,7 +89,7 @@ Explore these resources to get started and make the most of Remote File Sync:
 - Synchronization panel display issues fixed.
 - Enhanced stability for file synchronization.
 
-### 1.1.1 - 1.3.4
+### 1.1.1 - 1.3.5
 
 - Enhanced configurations for FTP, SFTP, SSH, WebDAV, and Google Drive.
 - Improved file transfer performance and synchronization.
