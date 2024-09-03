@@ -95,6 +95,10 @@ Explore these resources to get started and make the most of Remote File Sync:
 - Improved file transfer performance and synchronization.
 - Bug fixes and documentation updates for better user guidance.
 
+### 1.3.6
+
+- Added escaping of special characters in file paths to handle SSH command execution properly.
+
 ---
 
 **Enjoy using Remote File Sync!**
