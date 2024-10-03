@@ -1,54 +1,66 @@
 # Usage Guide for Remote File Sync Extension
 
+[![Remote File Sync](https://katorymnd.com/tqc_images/How-to-Sync-Filez.png)](https://www.youtube.com/watch?v=fJLxWZzPWqI)
+
 This section will guide you through the usage of the Remote File Sync extension for Visual Studio Code, explaining how to synchronize your local files with remote servers efficiently.
 
-## Step 1: Open the Remote File Sync Panel
+## Step 1: Open the Remote Files
 
-After installing and configuring the extension, you can access the Remote File Sync panel:
+After installing and configuring the extension, you can access the Remote Files like so:
 
-1. Open Visual Studio Code.
+1. Open Visual Studio Code and click on `Remote File Sync extension` icon.
 2. Navigate to the sidebar on the left.
-3. Click on the "Remote File Sync" icon to open the panel.
+3. Click on the "**Open Sync Panel**" section to open the **File Synchronization** tab.
 
 ## Step 2: Set Up a New Connection
 
 To start syncing files, you first need to set up a new connection to your remote server:
 
-1. In the Remote File Sync panel, click on the `+` icon to add a new connection.
-2. Fill in the required details:
-   - **Protocol:** Select the protocol (FTP, SFTP, SSH, WebDAV, or Google Drive) based on your server.
+1. In the **File Synchronization** tab, use the dropdown menu to select your desired protocol. By default, the FTP protocol is selected, but you can choose from:
+   - **FTP**
+   - **SFTP**
+   - **SSH**
+   - **WebDAV**
+   - **Google Drive**
+2. Once you've selected the protocol, fill in the required details:
    - **Host:** Enter the hostname or IP address of the remote server.
    - **Port:** Specify the port number (default is 22 for SFTP/SSH, 21 for FTP).
-   - **Username:** Your username for the remote server.
+   - **Username:** Enter your username for the remote server.
    - **Password/Key:** Enter the password or provide the path to your SSH key.
 3. Click `Connect` to store the connection details.
 
-## Step 3: Configure the Extension
+After completing these steps, the connection will be saved, and you can begin syncing files with your chosen protocol.
 
-Once the extension is installed, you need to configure it to connect to your remote servers:
+## Step 3: Sync Files
 
-[![Remote File Sync](https://katorymnd.com/tqc_images/How-to-Sync-Filez.png)](https://www.youtube.com/watch?v=fJLxWZzPWqI)
+After setting up the connection, you can start syncing files between your local machine and the remote server by following these steps:
 
-## Step 4: Sync Files
+1. By the **File Synchronization** tab saved connections. (Dont open the tab again).
+2. Click on `Latest Connection` to select the most recently used connection
+3. By your saved protocols, choose your desired connection protocol from the dropdown list:
+   - **FTP**
+   - **SFTP**
+   - **SSH**
+   - **WebDAV**
+   - **Google Drive**
+4. Click to connect. Once you see `FTP Connection to server initiated.` and `Connected to FTP server.` if your choice was FTP Protocol. Then click on `Remote Files` to display the recieved remote files.
 
-After setting up the connection, you can start syncing files between your local machine and the remote server:
+## Step 4: Manage Files
 
-1. Select the connection from the list in the Remote File Sync panel.
-2. Click on the `Latest Connection`.
-3. Choose the direction of sync:
-   - **Local to Remote:** Upload files from your local machine to the remote server.
-   - **Remote to Local:** Download files from the remote server to your local machine.
-4. Monitor the sync progress in the output panel.
+Once all files are retrived by your selected protocol, you will be able see all remote files under `Remote Files`, navigate to any folder by clicking on it to display its files, as you do when viewing local files using vscode.
 
-## Step 5: Manage Files
+- **Right-click on Folder:** Right-click on a folder in the `Remote Files` file tree and you will be able to select and use `Upload to Server` any file(s) or folder,`Delete`, add `New File`, add `New folder`, also `Rename...` .
 
-You can also manage files directly from the Remote File Sync panel:
+- **Right-click on File:** Right-click on a file in the `Remote Files` file tree and you will be able to select and use `Delete`, add also `Rename...` .
 
-- **Upload:** Right-click on a file or folder in the local file tree and select `Upload`.
-- **Download:** Right-click on a file or folder in the remote file tree and select `Download`.
-- **Delete:** Right-click on a file or folder and select `Delete` to remove it from the remote server.
-- **Rename:** Right-click on a file or folder and select `Rename`.
+- **Click on File:** Depending on the supported file type, click on the file, and it will open in a new VS Code tab or window. Here, you can update the file and save it. Sometimes you might see this notice:
 
-## Step 6: Troubleshooting
+  ![Remote File Sync Overwrite](https://katorymnd.com/tqc_images/compare-save.png)
+
+  Simply click the `overwrite` option. When the file is saved remotely, you will see the confirmation:
+
+  ![Remote File Sync saved](https://katorymnd.com/tqc_images/save-success.png)
+
+## Step 5: Troubleshooting
 
 If you encounter issues while using the extension, refer to the [Troubleshooting Guide](troubleshooting.md) for common problems and solutions.

@@ -15,7 +15,8 @@ This section provides solutions to common problems you might encounter while usi
 
 **Solutions:**
 
-- Double-check the connection details in the Remote File Sync panel.
+- Double-check the connection for your desired protocol by clicking on `Latest Connection`. For example, if you're using FTP, Click on FTP from the list, and the logic will attempt to connect. If the connection fails, reinitialize it by selecting the protocol again. Click on the "**Open Sync Panel**" to access the **File Synchronization** tab.
+
 - Verify that the server is online and accessible from your network.
 - Ensure that the correct port is being used for the protocol (e.g., 22 for SFTP/SSH, 21 for FTP).
 - If using an SSH key, ensure that the key path is correct and the key has the appropriate permissions.
@@ -96,7 +97,8 @@ This section provides solutions to common problems you might encounter while usi
 
 - Check your network connection and ensure it is stable.
 - Increase the timeout settings on the server, if possible.
-- Reduce the load on your machine by closing unnecessary applications, or on the server by scheduling sync operations during off-peak hours.
+- Reduce the load on your machine by closing unnecessary applications, or on the server by scheduling sync operations during off-peak hours. Or
+  clicking on `Latest Connection`. For example, if you're using FTP, Click on FTP from the list, and the logic will attempt to reconnect using the saved credentials.
 
 ## Advanced Troubleshooting
 

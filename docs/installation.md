@@ -50,17 +50,15 @@ Once the extension is installed, you need to configure it to connect to your rem
 
 [![Remote File Sync](https://katorymnd.com/tqc_images/How-to-Sync-Filez.png)](https://www.youtube.com/watch?v=fJLxWZzPWqI)
 
-1. **Click Remote File Sync**:
-   Click on the icon
-2. **Add a New Connection**:
-   Click "Open Sync Panel" and "File Synchronization" tab will open.
-3. **Choose Your Protocol**:
-   Select the protocol (e.g., FTP, SFTP, SSH, WebDAV, Google Drive) you want to use. For FTP and SFTP, choose the appropriate server address and port (usually 21 for FTP and 22 for SFTP). For SSH and WebDAV, provide the specific server details and credentials.
-4. **Enter Connection Details**:
+1. **Add a New Connection**:
+   Click "**Open Sync Panel**" and **File Synchronization** tab will open.
+2. **Choose Your Protocol**:
+   Select the protocol (e.g., FTP, SFTP, SSH, WebDAV, Google Drive) you want to use from the dropdown. For FTP and SFTP, choose the appropriate server address and port (usually 21 for FTP and 22 for SFTP). For SSH and WebDAV, provide the specific server details and credentials.
+3. **Enter Connection Details**:
    Provide all necessary details such as the server address, port number, username, and authentication method (e.g., password, SSH key). If using Google Drive, proceed to authenticate using the provided URL and paste the authorization code back in Visual Studio Code.
-5. **Connection**:
+4. **Connection**:
    Click "Connect" to verify the details. You should see a success message confirming that the connection can be established.
-6. **Automatic Save**:
+5. **Automatic Save**:
    Once the connection is successfully established, the extension will automatically save your connection details for future use, ensuring quick access and synchronization across sessions without the need to manually save each time.
 
 [![Remote File Sync](https://katorymnd.com/tqc_images/How-to-Sync-Files.png)](https://www.youtube.com/watch?v=JHrlwkcAUVs)
@@ -72,9 +70,9 @@ Once the extension is installed, you need to configure it to connect to your rem
 With your connection configured, you’re ready to start syncing files:
 
 1. **Select Your Connection**:
-   Click on "Latest Connection" to use the most recent configuration.
+   Click on "**Latest Connection**" to use the most recent configuration.
 2. **Manage Your Files**:
-   Use the tree view to manage your remote files, including uploading, downloading, renaming, and deleting files.
+   Use the `Remote Files` file tree view to manage your remote files, including uploading, downloading, renaming, and deleting files.
 
 ---
 

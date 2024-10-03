@@ -99,6 +99,10 @@ Explore these resources to get started and make the most of Remote File Sync:
 
 - Added escaping of special characters in file paths to handle SSH command execution properly.
 
+### 1.3.7
+
+- Updated doc files.
+
 ---
 
-**Enjoy using Remote File Sync!**
+**Enjoy using Remote File Sync! If you find it helpful, please share it with a friend or colleague to help them streamline their workflow as well!**
