@@ -2,6 +2,11 @@
 
 ![Remote File Sync Banner](https://katorymnd.com/tqc_images/vscode-remote-file-sync-screen-shot.png)
 
+> ⚠️ **Notice:**  
+> The extension is temporarily locked on the Visual Studio Marketplace due to an automated security scan.  
+> A clean and verified version (**v1.4.0**) is available for manual installation at:  
+> [https://katorymnd.com/vscode-remote-file-sync](https://katorymnd.com/vscode-remote-file-sync)
+
 Welcome to the "Remote File Sync" extension for Visual Studio Code. This extension provides seamless file synchronization between your local workspace and remote servers, leveraging FTP, SFTP, SSH, WebDAV, and Google Drive connections.
 
 ## Features
@@ -41,31 +46,24 @@ This extension contributes the following settings:
 Certain file types are not supported for synchronization, including:
 
 **Executable Files:**
-
 - `.exe`, `.dll`, `.so`
 
 **Image Files:**
-
 - `.jpg`, `.jpeg`, `.png`, `.gif`, `.bmp`, `.tiff`, `.tif`
 
 **Audio Files:**
-
 - `.mp3`, `.wav`, `.aac`, `.flac`
 
 **Video Files:**
-
 - `.mp4`, `.avi`, `.mkv`, `.mov`, `.wmv`
 
 **Document Files:**
-
 - `.pdf`, `.doc`, `.docx`, `.ppt`, `.pptx`, `.xls`, `.xlsx`
 
 **Compressed Files:**
-
 - `.zip`, `.rar`, `.tar`, `.gz`
 
 **Disk Image Files:**
-
 - `.iso`, `.img`, `.dmg`
 
 ## Tutorials and Guides
@@ -78,30 +76,6 @@ Explore these resources to get started and make the most of Remote File Sync:
 - [Using the Sync Panel](https://katorymnd.com/article/managing-remote-files-and-folders-in-vs-code-tree-view)
 - [Common Troubleshooting Tips](https://katorymnd.com/article/common-troubleshooting-tips-for-remote-file-sync-for-vscode)
 
-## Release Notes
-
-### 0.0.1 - 0.0.4
-
-- Initial releases: Core features like multi-protocol support and remote file tree view introduced.
-
-### 1.0.1
-
-- Synchronization panel display issues fixed.
-- Enhanced stability for file synchronization.
-
-### 1.1.1 - 1.3.5
-
-- Enhanced configurations for FTP, SFTP, SSH, WebDAV, and Google Drive.
-- Improved file transfer performance and synchronization.
-- Bug fixes and documentation updates for better user guidance.
-
-### 1.3.6
-
-- Added escaping of special characters in file paths to handle SSH command execution properly.
-
-### 1.3.7
-
-- Updated doc files.
 
 ---
 
