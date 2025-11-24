@@ -2,11 +2,6 @@
 
 ![Remote File Sync Banner](https://katorymnd.com/tqc_images/vscode-remote-file-sync-screen-shot.png)
 
-> ⚠️ **Notice:**  
-> The extension is temporarily locked on the Visual Studio Marketplace due to an automated security scan.  
-> A clean and verified version (**v1.4.0**) is available for manual installation at:  
-> [https://katorymnd.com/vscode-remote-file-sync](https://katorymnd.com/vscode-remote-file-sync)
-
 Welcome to the "Remote File Sync" extension for Visual Studio Code. This extension provides seamless file synchronization between your local workspace and remote servers, leveraging FTP, SFTP, SSH, WebDAV, and Google Drive connections.
 
 ## Features
